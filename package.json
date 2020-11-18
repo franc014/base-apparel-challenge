@@ -1,0 +1,23 @@
+{
+  "name": "base-apparel",
+  "version": "1.0.0",
+  "description": "Frontend Mentor Challenge",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franc014/base-apparel-challenge.git"
+  },
+  "author": "@jfandradea",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/franc014/base-apparel-challenge/issues"
+  },
+  "homepage": "https://github.com/franc014/base-apparel-challenge#readme",
+  "scripts": {
+    "dev": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.1"
+  }
+}
