@@ -14,9 +14,10 @@
   },
   "homepage": "https://github.com/franc014/base-apparel-challenge#readme",
   "scripts": {
-    "start":"browser-sync start --server --files '**/*.css, **/*.html, **/*.js' --directory --port 3333 --browser 'Chrome' "
+    "start": "browser-sync start --server --files '**/*.css, **/*.html, **/*.js' --directory --port 3333 --browser 'Chrome' "
   },
   "devDependencies": {
     "browser-sync": "^2.26.13"
-  }
+  },
+  "dependencies": {}
 }
