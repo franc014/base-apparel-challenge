@@ -5,12 +5,30 @@
   --soft-red: hsl(0, 93%, 68%);
   --dark-grayish-red: hsl(0, 6%, 24%);
 }
+html {
+  font-size: 16px;
+}
 
 body {
   background: var(--desaturated-red);
 }
+
+header {
+  background: lightgreen;
+}
+
 .container {
-  background: red;
   max-width: var(--desktop-width);
   margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.content__copy {
+  background: lightsalmon;
+}
+
+.content__model {
+  background: lightskyblue;
 }
