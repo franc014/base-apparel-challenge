@@ -4,6 +4,7 @@
   --desaturated-red: hsl(0, 36%, 70%);
   --soft-red: hsl(0, 93%, 68%);
   --dark-grayish-red: hsl(0, 6%, 24%);
+  --font-sans: "Josefin Sans", sans-serif;
 }
 html {
   font-size: 16px;
@@ -11,24 +12,31 @@ html {
 
 body {
   background: var(--desaturated-red);
+  font-family: var(--font-sans);
 }
 
-header {
-  background: lightgreen;
-}
-
-.container {
+.content {
   max-width: var(--desktop-width);
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2rem;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 1rem;
+  height: 100vh;
 }
 
-.content__copy {
-  background: lightsalmon;
+.content__main {
+  background: lightyellow;
+  padding: 4rem 8rem;
 }
 
 .content__model {
   background: lightskyblue;
+}
+
+.copy__title {
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+.text_lighter {
+  font-weight: 300;
 }

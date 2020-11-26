@@ -4,18 +4,45 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/normalize.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./assets/app.css" />
     <title>Base Apparel</title>
   </head>
   <body>
-    <header class="container">
-      <object data="./assets/images/logo.svg" type="image/svg+xml">
-        <div>BASE APAREL</div>
-      </object>
-    </header>
-    <main class="container content">
-      <section class="content__copy">left</section>
-      <section class="content__model">right</section>
-    </main>
+    <div class="content">
+      <section class="content__main">
+        <header class="header">
+          <object data="./assets/images/logo.svg" type="image/svg+xml">
+            <div>BASE APAREL</div>
+          </object>
+        </header>
+        <main class="copy">
+          <h1 class="copy__title">
+            <span class="text_lighter"> We ' re </span>
+            coming soon
+          </h1>
+          <p class="copy__presentation">
+            Hello fellow shoppers! We're currently building our new fashion
+            store. Add your email below to stay up-to-date with announcement and
+            our launch deals.
+          </p>
+
+          <form>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email Address"
+            />
+            <button>go</button>
+          </form>
+        </main>
+      </section>
+      <section class="content__model">right content</section>
+    </div>
   </body>
 </html>
