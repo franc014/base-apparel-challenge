@@ -39,4 +39,29 @@ body {
 }
 .text_lighter {
   font-weight: 300;
+  display: block;
+}
+.subscribe-form {
+  width: 100%;
+  display: grid;
+  background: lightpink;
+  /* border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem; */
+  border-radius: 2rem;
+  grid-template-columns: 4fr 1fr;
+  border: 1px solid black;
+  height: 3rem;
+}
+.subscribe-form__input {
+  border: 0;
+  padding: 0.8rem 0 0.7rem 2rem;
+  background: transparent;
+}
+input.subscribe-form__input[type="email"]:focus {
+  outline: none;
+}
+
+.subscribe-form__btn {
+  border: 0;
+  border-radius: 2rem;
 }
